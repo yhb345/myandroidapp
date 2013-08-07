@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/item_username"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="username"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/item_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Time"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="title"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TextView
+            android:id="@+id/item_count"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:gravity="center"
+            android:layout_weight="8"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fenjiexian" 
+        android:scaleType="fitXY"/>
+
+</LinearLayout>
